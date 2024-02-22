@@ -1,14 +1,20 @@
-#!/usr/bin/env python3
-"""
-Main file
-"""
+#!/usr/bin/python3
+""" 0-main """
+BasicCache = __import__('0-basic_cache').BasicCache
 
-index_range = __import__('0-simple_helper_function').index_range
-
-res = index_range(1, 7)
-print(type(res))
-print(res)
-
-res = index_range(page=3, page_size=15)
-print(type(res))
-print(res)
+my_cache = BasicCache()
+my_cache.print_cache()
+my_cache.put("A", "Hello")
+my_cache.put("B", "World")
+my_cache.put("C", "Holberton")
+my_cache.print_cache()
+print(my_cache.get("A"))
+print(my_cache.get("B"))
+print(my_cache.get("C"))
+print(my_cache.get("D"))
+my_cache.print_cache()
+my_cache.put("D", "School")
+my_cache.put("E", "Battery")
+my_cache.put("A", "Street")
+my_cache.print_cache()
+print(my_cache.get("A"))
