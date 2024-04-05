@@ -2,17 +2,15 @@
 
 `Back-end`
 
-![meme](./images/meme.jpeg)
-
 ## Resources
 
 **Read or Watch**
 
-- [Flask-Babel](https://intranet.alxswe.com/rltoken/fBpGjDt2BFuBFiz-jwublQ)
+- [Flask-Babel](https://web.archive.org/web/20201111174034/https://flask-babel.tkte.ch/)
 
-- [Flask i18n tutorial](https://intranet.alxswe.com/rltoken/RtGz7pI7TKnYqrMMG9rWMg)
+- [Flask i18n tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n)
 
-- [pytz](https://intranet.alxswe.com/rltoken/7rrCz4pkpqAn4FfRZ2Vsvw)
+- [pytz](https://pypi.org/project/pytz/)
 
 ## Learning Objectives
 
